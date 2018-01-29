@@ -31,15 +31,21 @@ const ButtonStyled = styled.button`
     line-height: 24px;
     color: rgb(255,255,255);
     margin-top: 50px;
+    cursor: pointer;
 `;
 
 class FirstPanel extends Component {
+
+    onClick = () =>
+    {
+        window.open("#", "_self"); 
+    }
     render() {
         return (
             <TextContainer>
                 <ImageStyled src={HotDogLogoPNG} />
                 <TextStyled>Dirty Dogs serves all-beef, vegan, and vegetarian hot dogs</TextStyled>
-                <ButtonStyled type="button" onclick="www.google.com">More Dogs 'n Make Em Hot</ButtonStyled>
+                <ButtonStyled onClick={this.onClick}>More Dogs 'n Make Em Hot</ButtonStyled>
             </TextContainer>
         );
     }

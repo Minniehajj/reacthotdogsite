@@ -1,3 +1,12 @@
+Navigate to this folder using terminal
+Run "npm start"
+Navigate to "localhost:3000"
+
+Some issues: It's hard to truly match a photo mockup to web without defining additional constraints.  In this case, viewport sizing was not well defined so I had to make a few judgment calls, such as making the entire application the full width of the window, instead of having a definid max width with blank space on the ends should the user extend the page past the defined max width.  Thus, the sizing and ratio of the images is a bit skewed since the mockup doesn't define these constraints.
+
+
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>

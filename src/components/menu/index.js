@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
 import styled from 'styled-components';
 
 const MenuStyled = styled.div`
     display: inline-flex;
+    a:hover {
+        color: cornflowerblue;
+    }
 `;
 
 const MenuItemStyled = styled.a`
@@ -16,6 +18,8 @@ const MenuItemStyled = styled.a`
     padding: 40px;
     text-decoration: none;
     text-transform: uppercase
+
+    
 `;
 
 const MenuContainer = styled.div`
