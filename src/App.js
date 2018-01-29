@@ -12,6 +12,8 @@ const WrapperStyled = styled.div`
   text-align: center;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
   min-width: 900px;
 `
 class App extends Component {
