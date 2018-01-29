@@ -11,13 +11,15 @@ const TextStyled = styled.div`
     margin-left: 100px;
     h1 {
         font-size: 24px;
+        font-weight: 700;
     }
     p{
-        margin-left: 30px;
+        margin-left: 40px;
         margin-top: 30px;
         margin-right: 100px;
         font-weight: normal;
         font-size: 18px;
+        font-weight: 300;
     }
 `;
 
@@ -36,7 +38,7 @@ class FourthPanel extends Component {
         return (
             <TextContainer>
                 <TextStyled>
-                    <h1> &mdash; Vegetarian Hotdogs</h1>
+                    <h1> &mdash; &nbsp; Vegetarian Hotdogs</h1>
                     <p> Praesent commodo cursus magna, vel scelerisque nsil consectetur et.  Aenean eu leo quam.  Pellentesque ornare sem lacinia quam venenatis vestibulum </p>
                 </TextStyled>
                 <ImageStyled src={Panel4ImagePNG} />

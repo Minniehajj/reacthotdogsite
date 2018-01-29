@@ -7,7 +7,8 @@ const TextStyled = styled.div`
     letter-spacing: -2px;
     color: rgb(85,85,89);
     text-align: center;
-    margin-top: 50px;
+    margin-top: 50px;   
+    font-weight: 300;
 `;
 
 const ImageStyled = styled.img`
@@ -32,6 +33,8 @@ const ButtonStyled = styled.button`
     color: rgb(255,255,255);
     margin-top: 50px;
     cursor: pointer;
+    font-weight: 600;
+    line-height: 1.2;
 `;
 
 class FirstPanel extends Component {
