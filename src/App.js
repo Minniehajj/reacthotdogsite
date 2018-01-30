@@ -8,14 +8,14 @@ import HeroImage from './components/heroImage';
 import Footer from './components/footer';
 import Menu from './components/menu';
 
-
 const WrapperStyled = styled.div`
   text-align: center;
   width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
   min-width: 900px;
-`
+`;
+
 class App extends Component {
   render() {
     return (

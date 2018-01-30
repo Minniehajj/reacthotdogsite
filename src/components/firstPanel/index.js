@@ -19,7 +19,7 @@ const TextContainer = styled.div`
     background-color: #fbfafa;
     width: 100%;
     height: 600px;
-`
+`;
 
 const ButtonStyled = styled.button`
     border-radius: 10px;
@@ -33,7 +33,6 @@ const ButtonStyled = styled.button`
     color: rgb(255,255,255);
     margin-top: 50px;
     cursor: pointer;
-    font-weight: 600;
     line-height: 1.2;
 `;
 
@@ -53,6 +52,5 @@ class FirstPanel extends Component {
         );
     }
 }
-
 
 export default FirstPanel;

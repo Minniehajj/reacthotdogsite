@@ -31,7 +31,7 @@ const TextContainer = styled.div`
     background-color: #fbfafa;
     height: 600px;
     display: flex;
-`
+`;
 
 class FourthPanel extends Component {
     render() {

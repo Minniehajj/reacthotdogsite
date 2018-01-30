@@ -15,20 +15,20 @@ const FooterTextLeft = styled.div`
 
 const FooterTextRight = FooterTextLeft.extend`
     text-align: right;
-`
-const FooterContainer = styled.div`
+`;
+
+const FooterContainer = styled.footer`
     display:flex;
     background-color: #efefef;
     height: 70px;
-`
-
+`;
 
 class Footer extends Component {
     render() {
         return (        
             <FooterContainer>
                 <FooterTextLeft>® Dirty Dogs all rights reserved</FooterTextLeft>
-                <FooterTextRight>274 Marconi Blvd. Columbus, OH 43215 &nbsp;|&nbsp; 614.538.0095&nbsp;|&nbsp; <a href="#">Contact Us</a></FooterTextRight>
+                <FooterTextRight>274 Marconi Blvd. Columbus, OH 43215 &nbsp;|&nbsp; 614.538.0095 &nbsp;|&nbsp; <a href="#">Contact Us</a></FooterTextRight>
              </FooterContainer>
         )
     }

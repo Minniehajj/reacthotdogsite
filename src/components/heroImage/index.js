@@ -11,7 +11,7 @@ class HeroImage extends Component {
         return (
             <ImageStyled src={HeroImagePNG} />
         );
-    }d
+    }
 }
 
 

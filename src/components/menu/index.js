@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
 
-const MenuStyled = styled.div`
+const MenuStyled = styled.nav`
     display: inline-flex;
     a:hover {
         color: cornflowerblue;
@@ -18,14 +18,11 @@ const MenuItemStyled = styled.a`
     padding: 40px;
     text-decoration: none;
     text-transform: uppercase
-
-    
 `;
 
 const MenuContainer = styled.div`
-border-bottom: 5px solid #f3f2f2;
-`
-
+    border-bottom: 5px solid #f3f2f2;
+`;
 
 class Menu extends Component {
     render() {
@@ -41,7 +38,5 @@ class Menu extends Component {
         );
     }
 }
-
-
 
 export default Menu;
